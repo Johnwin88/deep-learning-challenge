@@ -1,11 +1,15 @@
 # deep-learning-challenge
 
-## Objective: 
-Develop a deep learning-based predictive model to assess the likelihood of organizational success, utilizing features that describe various organizations. The goal is to create a classifier that predicts an organization's success based on its characteristics.
+## Overview: 
+This project focuses on employing deep learning methods to develop a predictive model aimed at assessing the success potential of various organizations. The dataset contains a range of attributes pertaining to different organizations. The primary objective is to create a classifier that can accurately predict an organization's success based on its specific features.
 
-## Results and Data Preparation:
+## Results:
 
-The primary metric for prediction is "IS_SUCCESSFUL."
-The model includes all columns except the "EIN," which was excluded from the dataset.
-Overall Performance: The model attained approximately 78% accuracy on the test dataset, with a loss value of 0.45.
-Additional Recommendation: Exploring a Random Forest model is advisable, as it could provide alternative insights and solutions for this classification challenge.
+Data Processing
+
+The primary variable of interest for this model is labeled as "IS_SUCCESSFUL".
+The model incorporates all dataset features, excluding the "EIN" column, which was omitted.
+The "EIN" column was excluded from the feature set.
+
+## Summary: 
+The developed model demonstrated a test accuracy of approximately 78%, alongside a loss measure of 0.45. Considering the results, exploring a Random Forest model is advisable as it might present alternative insights for this classification challenge.
