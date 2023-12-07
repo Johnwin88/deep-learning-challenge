@@ -7,9 +7,9 @@ This project focuses on employing deep learning methods to develop a predictive 
 
 Data Processing
 
-The primary variable of interest for this model is labeled as "IS_SUCCESSFUL".
-The model incorporates all dataset features, excluding the "EIN" column, which was omitted.
-The "EIN" column was excluded from the feature set.
++ The primary variable of interest for this model is labeled as "IS_SUCCESSFUL".
++ The model incorporates all dataset features, excluding the "EIN" column, which was omitted.
++ The "EIN" column was excluded from the feature set.
 
 ## Summary: 
 The developed model demonstrated a test accuracy of approximately 78%, alongside a loss measure of 0.45. Considering the results, exploring a Random Forest model is advisable as it might present alternative insights for this classification challenge.
